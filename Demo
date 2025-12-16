@@ -11,7 +11,7 @@ int main() {
 		else if (score >= 75)
 			printf("B");
 		else
-			printf("C");
+			printf("C (need %d more for B)", 75 - score);
 	else if (score >= 55)
 		printf("D");
 	else
